@@ -1,0 +1,34 @@
+
+
+Synthesizer using guitar hero controller as input
+	
+	Guitar Hero World Tour Guitar
+		Body
+			NEC MCU, can't find a datasheet on it
+			Whammy bar is a pot
+			Joystick is one of the analog out
+			Connection to the Wiimote through typical Wii cord
+				Potentially replace and keep other thing whole
+			nice switches (Alps?) for picking
+			Buttons for +- and bar
+			Connector for neck is 4 wire, don't know protocol
+		Neck
+			MCU is Microchip HA2002-ISS, no datasheet
+			There are 5 normal buttons and 5 capacative buttons
+			potentially just hack the microchip part so buttons
+				could be replaced with backlit ones?
+
+		Wii cable
+			Nunchuck connector
+				Cable shielding to Case ground
+				"Top" is the side with the notch in it
+				Green to bottom right
+				White to top right
+				Red to bottom left and bottom middle
+					Bottom middle is device detect
+				Yellow to top left
+
+
+	Controller takes something like 4.5 mA when neck is plugged in,
+		and takes more like 9.0 mA without neck plugged
+	No luck with the first setup
